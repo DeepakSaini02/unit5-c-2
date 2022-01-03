@@ -1,0 +1,14 @@
+#showRecipe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 60%;
+    border: 3px solid black;
+}
+
+#inside{
+  height: 20%;
+    width: 20%;
+    border: 3px solid black;
+}

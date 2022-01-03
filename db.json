@@ -1,6 +1,5 @@
 {
   "recipe": [
-   
     {
       "title": "pizza",
       "ingredients": "onion",
@@ -16,6 +15,78 @@
       "image": "https://foodish-api.herokuapp.com/images/pizza/pizza10.jpg",
       "ins": "1",
       "id": 3
+    },
+    {
+      "title": "pizza",
+      "ingredients": "onion",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 4
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 5
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 6
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 7
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 8
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 9
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 10
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 11
+    },
+    {
+      "ingredients": "onion",
+      "title": "1",
+      "time": "1",
+      "image": "1",
+      "ins": "1",
+      "id": 12
     }
   ]
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+import './Show.css';
 export const Show=()=>{
 const [list,setList]=useState([])
 useEffect(()=>{
@@ -17,9 +17,9 @@ console.log(list)
 
       {
           list.map((el)=>(
-              <div>
-                  <h3>{el.title}</h3>
-                  <h5>{el.time}</h5>
+              <div id="inside">
+                  <label>{el.title}</label>
+                  <label>{el.time}</label>
 
               </div>
           ))
