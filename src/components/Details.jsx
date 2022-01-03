@@ -1,9 +1,10 @@
 
-import { Show } from "./Show"
-export const Details=({el})=>{
+export const Details=({title})=>{
+    console.log('hhhh')
+    console.log(title)
 return <>
 
-{console.log(el)}
+
 
 </>
 }
