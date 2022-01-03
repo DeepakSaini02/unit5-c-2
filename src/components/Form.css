@@ -1,0 +1,10 @@
+#recipeForm{
+    display: grid;
+    width: 90%;
+    gap: .6rem;
+}
+
+#recipeDiv{
+width: 30%;
+margin: 1rem;
+}

@@ -1,19 +1,21 @@
 {
-  "posts": [
+  "recipe": [
+   
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "pizza",
+      "ingredients": "onion",
+      "time": "1",
+      "image": "https://foodish-api.herokuapp.com/images/pizza/pizza10.jpg",
+      "ins": "1",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "pizza",
+      "ingredients": "onion",
+      "time": "1",
+      "image": "https://foodish-api.herokuapp.com/images/pizza/pizza10.jpg",
+      "ins": "1",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
