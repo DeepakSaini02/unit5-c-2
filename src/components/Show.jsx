@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Details } from "./Details";
 import './Show.css';
-export const Show=({})=>{
+export const Show=()=>{
 const [list,setList]=useState([])
 useEffect(()=>{
     getList()
@@ -10,25 +10,25 @@ useEffect(()=>{
 const getList=()=>{
     fetch('http://localhost:3001/recipe').then((d)=> d.json()).then((res)=>{setList(res)})
 }
-
-
+const [det,setDet]=useState('')
+function handleShow(el){
+    setDet(el)
+    localStorage.setItem('details',JSON.stringify(setDet))
+}
 
 
 console.log(list)
-    return <div id="showRecipe">
+    return  <div id="showRecipe">
 
-      {
-          list.map((el)=>(
-            
+{
+    list.map((el)=>(
+        <div id="inside" onClick={()=>handleShow(el)}>
+            <label>{el.title}</label>
+            <label>{el.time}</label>
+        </div>
+    ))
+}
+</div>
 
-<Details title={el.title}
-    //           <div id="inside" onClick={()=> />}>
-    //               <label>{el.title}</label>
-    //               <label>{el.time}</label>
-
-    //           </div>
-    //       ))
-    //   }
-
-    // </div>
+   
 }
