@@ -1,7 +1,6 @@
 
 export const Details=()=>{
-   let data=JSON.parse(localStorage.getItem('details'))
-  console.log(data)
+
 return <>
 
 {/* <img src={data.image} alt="" />
