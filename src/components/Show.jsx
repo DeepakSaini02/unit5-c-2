@@ -11,15 +11,7 @@ const getList=()=>{
     fetch('http://localhost:3001/recipe').then((d)=> d.json()).then((res)=>{setList(res)})
 }
 
-function recipeDetails(el){
-    console.log('h')
 
- return <div>
-<Details title={el.title} />
- </div>
-
-    
-}
 
 
 console.log(list)
@@ -27,13 +19,16 @@ console.log(list)
 
       {
           list.map((el)=>(
-              <div id="inside" onClick={()=><Details title={el.title} />}>
-                  <label>{el.title}</label>
-                  <label>{el.time}</label>
+            
 
-              </div>
-          ))
-      }
+<Details title={el.title}
+    //           <div id="inside" onClick={()=> />}>
+    //               <label>{el.title}</label>
+    //               <label>{el.time}</label>
 
-    </div>
+    //           </div>
+    //       ))
+    //   }
+
+    // </div>
 }
