@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import './Show.css';
-export const Show=()=>{
+export const Show=({el})=>{
 const [list,setList]=useState([])
 useEffect(()=>{
     getList()
@@ -17,7 +17,7 @@ console.log(list)
 
       {
           list.map((el)=>(
-              <div id="inside">
+              <div id="inside" onClick={()=>el}>
                   <label>{el.title}</label>
                   <label>{el.time}</label>
 
