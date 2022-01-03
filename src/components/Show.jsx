@@ -13,7 +13,7 @@ const getList=()=>{
 const [det,setDet]=useState('')
 function handleShow(el){
     setDet(el)
-    localStorage.setItem('details',JSON.stringify(setDet))
+    localStorage.setItem('details',JSON.stringify(el))
 }
 
 
